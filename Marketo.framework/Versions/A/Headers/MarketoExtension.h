@@ -1,5 +1,5 @@
 //
-//  MarketoExtenstion.h
+//  MarketoExtension.h
 //  Marketo
 //
 //  Created by Mahesh.Bijapur on 3/27/19.

@@ -1,10 +1,14 @@
-# Marketo Mobile SDK for iOS 0.7.7
+# Marketo Mobile SDK for iOS 0.7.9
 
 The Marketo Mobile SDK allows integration with Marketo Mobile Engagement (MME).  
 
 Installation instructions and more are [here](http://developers.marketo.com/documentation/mobile/ "Marketo for Mobile").
 
 Change Log
+
+v0.7.9 (June 26, 2019)
+- Updated file Names.
+- Bug fixes and improvements.
 
 v0.7.7 (June 26, 2019)
 - Included features to add extension to Adobe Launch.
@@ -82,7 +86,7 @@ open -a Xcode Podfile
 ##### 4. Add the following line to your Podfile.
 
 ```Shell
-pod 'Marketo-iOS-SDK'
+pod 'Marketo-AL-iOS-SDK'
 ```
 
 ##### 5. Save and close your Podfile.

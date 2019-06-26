@@ -12,7 +12,7 @@ s.description         = <<-DESC
                             * In-app notifications
                             * Triggered campaigns
                         DESC
-s.homepage            = "https://github.com/Marketo/iOS-Launch-SDK"
+s.homepage            = "https://github.com/Marketo/iOS-Launch-SDK.git"
 s.license             = {
 :type => 'Copyright',
 :text => <<-LICENSE
@@ -20,7 +20,7 @@ Copyright 2015 Marketo, Inc. All rights reserved.
 LICENSE
 }
 
-s.author              = { "Marketo, Adobe company" => "mbijapur@marketo.com" }
+s.author              = { "Marketo Inc" => "mbijapur@marketo.com" }
 s.source              = { :git => "https://github.com/Marketo/iOS-Launch-SDK.git", :tag => s.version, :branch => 'master' }
 s.source_files		  = 'Marketo.framework/**/*.h'
 

@@ -13,7 +13,7 @@
 #import <Marketo/MKTSecuritySignature.h>
 #import <UserNotifications/UserNotifications.h>
 
-NS_ASSUME_NONNULL_BEGIN
+//NS_ASSUME_NONNULL_BEGIN
 
 @interface ALMarketo : NSObject
 
@@ -164,4 +164,4 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 
 @end
 
-NS_ASSUME_NONNULL_END
+//NS_ASSUME_NONNULL_END

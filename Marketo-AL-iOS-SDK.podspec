@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                = "Marketo-AL-iOS-SDK"
-s.version             = "0.7.9"
+s.version             = "8.0.0"
 s.summary             = "Add Marketo Mobile Engagement to your project."
 s.description         = <<-DESC
                             MarketoPod provides the following features:
@@ -24,8 +24,12 @@ s.author              = { "Marketo Inc" => "mbijapur@marketo.com" }
 s.source              = { :git => "https://github.com/Marketo/iOS-Launch-SDK.git", :tag => s.version, :branch => 'master' }
 s.source_files		  = 'Marketo.framework/**/*.h'
 
-s.platform            = :ios, '8.1'
+s.platform            = :ios, '10.0'
 s.requires_arc        = false
+
+# dependency on the core library
+s.dependency "ACPCore", ">= 2.1.1"
+s.static_framework = true
 
 s.preserve_paths      = 'Marketo.framework'
 s.public_header_files = 'Marketo.framework/**/*.h'

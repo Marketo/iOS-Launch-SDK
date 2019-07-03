@@ -13,7 +13,7 @@
 #import <Marketo/MKTSecuritySignature.h>
 #import <UserNotifications/UserNotifications.h>
 
-//NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN
 
 @interface ALMarketo : NSObject
 
@@ -38,7 +38,7 @@
  * @param appSecret An app secret used to initialize the app
  * @param munchkinID Used to connect to marketo end-point
  */
-- (void)initializeWithMunchkinID:(NSString *)munchkinID appSecret:(NSString *)appSecret launchOptions:(NSDictionary *)launchOptions;
+- (void)initializeWithMunchkinID:(nullable NSString *)munchkinID appSecret:(nullable NSString *)appSecret launchOptions:(nullable NSDictionary *)launchOptions;
 
 /*!
  * The timeout interval, in seconds. If during a connection attempt the request remains idle for longer
@@ -164,4 +164,4 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 
 @end
 
-//NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END

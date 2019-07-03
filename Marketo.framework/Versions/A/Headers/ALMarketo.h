@@ -15,7 +15,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MarketoExtension : NSObject
+@interface ALMarketo : NSObject
 
 /*!
  * Returns the App Secret used to initialize Marketo SDK.
@@ -26,7 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
  * Returns a singleton that is an instance of Marketo SDK.
  * @return Singleton instance of class Marketo.
  */
-+ (MarketoExtension *)sharedInstance;
++ (ALMarketo *)sharedInstance;
+
+/*!
+ * This API is called the internal extension should be registered
+ */
++ (void) registerExtension;
 
 /*!
  * Initializes Marketo SDK. This method should be called before calling any other Marketo SDK method.
@@ -156,10 +161,7 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
  */
 - (id)init __attribute__ ((unavailable ("cannot use init for this class, use +(Marketo*)sharedInstance instead")));
 
-/*!
- * This API is called the internal extension should be registered
- */
-+ (void) registerExtension;
+
 @end
 
 NS_ASSUME_NONNULL_END

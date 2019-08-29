@@ -15,6 +15,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+static NSString *const kALAppSecret = @"almkto.AppSecret";
+static NSString *const kALMunchkinID = @"almkto.Munchkin";
+
 @interface ALMarketo : NSObject
 
 /*!

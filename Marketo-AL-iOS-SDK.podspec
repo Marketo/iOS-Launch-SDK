@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                = "Marketo-AL-iOS-SDK"
-s.version             = "0.8.2"
+s.version             = "0.8.3"
 s.summary             = "Add Marketo Mobile Engagement to your project."
 s.description         = <<-DESC
                             MarketoPod provides the following features:

@@ -37,6 +37,12 @@ static NSString *const kALMunchkinID = @"almkto.Munchkin";
 + (void) registerExtension;
 
 /*!
+ * Initializes Marketo SDK. This method will be called as soon as we recieve the configurations from Launch.
+ * @param launchOptions Used for push handling notifications.
+ */
+-(void)initializeMarketo:(nullable NSDictionary *)launchOptions;
+
+/*!
  * Initializes Marketo SDK. This method should be called before calling any other Marketo SDK method.
  * @param appSecret An app secret used to initialize the app
  * @param munchkinID Used to connect to marketo end-point

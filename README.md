@@ -1,4 +1,4 @@
-# Adobe Launch Marketo Mobile SDK for iOS 1.0.4
+# Adobe Launch Marketo Mobile SDK for iOS 1.0.5
 
 The Adobe Marketo Mobile SDK allows integration with Marketo Mobile Engagement (MME).  
 

@@ -6,6 +6,9 @@ Installation instructions and more are [here](https://developers.marketo.com/mob
 
 Change Log
 
+v1.0.5 (March 19, 2020)
+- Fixed bugs.
+
 v1.0.4 (September 30, 2019)
 - Improvements to adobe extension.
 
